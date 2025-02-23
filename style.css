@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     list-style: none;
+    
 }
 
 .header{
@@ -45,7 +46,7 @@ a{
 .home{
     width: 100%;
     min-height: 100vh;
-    background:rgb(241,241,241);
+    /* background:rgb(241,241,241); */
     display:flex;
     align-items:center;
     gap:7em;
@@ -81,11 +82,20 @@ a{
     box-shadow: 0 16px 50px #333;
     }
 .social a{
-    color: #333;
+    color: hwb(0 0% 27%);
     margin: 0 10px;
     font-size: 24px;
     transition: 0.3s;
+    box-shadow: 0 4px 12px #333;
+    border-radius: 50%;
 }
 .social a:hover {
     color: #007bff;
+    box-shadow: 0 8px 25px #333;
+}
+span{
+    color: #e20062;
+}
+body{
+    background: #000b41;
 }
